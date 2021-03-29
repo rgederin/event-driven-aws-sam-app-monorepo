@@ -32,9 +32,7 @@ exports.handler = async (event) => {
     // All log statements are written to CloudWatch
     console.info(`response from: ${event.path} statusCode: ${response.statusCode} body: ${response.body}`);
     return response;
-}
-
-
+};
 
 const buildDynamoDbParams = event => {
     const data = JSON.parse(event.body);
