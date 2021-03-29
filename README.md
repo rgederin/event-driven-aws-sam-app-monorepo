@@ -7,6 +7,12 @@ This project contains source code and supporting files for a serverless applicat
 
 The application uses several AWS resources, including Lambda functions, an API Gateway API, Amazon DynamoDB tables, Amazon SQS queue and Amazon S3 bucket. These resources are defined in the `template.yml` file in this project. You can update the template to add AWS resources through the same deployment process that updates your application code.
 
+In order to generate NodeJs skeleton of serverless application with AWS SAM:
+
+```
+sam init --runtime  nodejs10.x | nodejs12.x | nodejs14.x
+```
+
 **Application architecture:**
 
 ![struct](https://github.com/rgederin/event-driven-aws-sam-app-monorepo/blob/master/img/sls-arch.png)
