@@ -9,7 +9,7 @@ The application uses several AWS resources, including Lambda functions, an API G
 
 **Application architecture:**
 
-![struct](https://github.com/rgederin/event-driven-aws-sam-app-monorepo/blob/master/img/sls-arch.jpg)
+![struct](https://github.com/rgederin/event-driven-aws-sam-app-monorepo/blob/master/img/sls-arch.png)
 
 
 ## Build and deploy the application
